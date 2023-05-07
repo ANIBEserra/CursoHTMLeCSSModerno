@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home .header {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 17px);
+    
+}
+#home .header .logo-container {
+    display: flex;
+    width: 100%;
+}
+#home .header .logo-header {
+    width: 10%;
+    height: auto;
+}
+
+#home .header .menu-header {
+    display: flex;
+    width: 40%;
+
+}
+
+#home .header .menu-item {
+    margin-right: 10px;
+}
+
+#home .header .social-medias {
+    display: flex;
+    width: 100%;
+
+}
